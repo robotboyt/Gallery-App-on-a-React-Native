@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import { View, Text, Image, Button, StyleSheet } from 'react-native-web'
+import { View, Text, StyleSheet } from 'react-native-web'
 import ImageElem from '../ImageElem'
 
 const apiKey = 'SrT7fu3gioKw5Fuz83_hptFJLD-da39F0fMD5lD3VD8'
