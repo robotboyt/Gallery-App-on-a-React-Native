@@ -1,10 +1,9 @@
 import React, {useState, useEffect} from 'react'
 import { View, Text, StyleSheet } from 'react-native-web'
 import ImageElem from '../ImageElem'
+import {API_UN_KEY} from '@env'
 
-const apiKey = 'SrT7fu3gioKw5Fuz83_hptFJLD-da39F0fMD5lD3VD8'
-let apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${20}`
-
+let apiUrl = `https://api.unsplash.com/photos/random/?client_id=${API_UN_KEY}&count=${20}`
 
 function HomeScreen({navigation}) {
     const [data, setData] = useState([])

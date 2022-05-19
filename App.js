@@ -8,6 +8,7 @@ import DetailsScreen from './Screens/DetailScreen';
 const Stack = createNativeStackNavigator()
 
 export default function App() {
+  
   return (
     <NavigationContainer> 
       <Stack.Navigator>
